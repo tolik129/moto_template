@@ -1,0 +1,66 @@
+
+#slideshowCont {
+	float:left;
+
+    width: 1128px;
+	//background:url(../img/slideBG.png);
+	overflow:scroll;
+	position:relative;
+
+}
+
+#next{
+	top:75px;
+	left:10px;
+	cursor:pointer;
+	position:absolute;
+	display:none;
+}
+#last{
+	top:75px;
+	right:10px;
+	cursor:pointer;
+	position:absolute;
+	display:none;
+}
+#slideShow {
+	padding:20px 0px;
+    width: 1074px;
+	//height:142px;
+	float:left;
+	
+}
+
+#slideShow ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:1900px;
+	margin-left:58px;
+}
+#slideShow ul li {
+	float:left;
+	//background:url(../img/slideBG.png); /* IE places a white background around the images, not sure why, but this fixes it*/
+}
+#slideShow ul li div{
+	float:left;
+	margin-left:26px;
+	margin-right:24px;
+
+}
+
+#slideShow ul li div p{
+	margin:0;
+	padding:0;
+	width:120px;
+
+	text-align:center;
+	color:#5e8387;
+	text-transform:uppercase;
+	padding:2px 0px;
+	font-size:12px;
+	
+}
+.clear {
+clear:both;
+}

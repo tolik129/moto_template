@@ -1,0 +1,91 @@
+/* Page */
+
+/* Vertical Mega Menu Styles */
+.mega-menu{
+
+
+}
+.mega-menu li a {
+    color: #fff;
+    font: 18px 'Roboto-Condensed';
+}
+.mega-menu li a:hover, .mega-menu li.mega-hover a {
+    font: 18px 'Roboto-BoldCondensed';
+
+color: #fff; 
+
+}
+.mega-menu li a.dc-mega {
+position: relative;
+}
+/* Add arrow icon to parent links */
+.mega-menu li a .dc-mega-icon {
+display: block; 
+position: absolute; 
+top: 18px; 
+right: 15px; 
+width: 6px; 
+height: 8px; 
+
+}
+/* Mega menu container */
+.mega-menu li .sub-container {
+position: absolute; /* Required */
+background: #2888f4;
+    top: 18px;
+color: #ffffff;
+border-left: none;
+}
+.mega-menu li .sub-container .sub {}
+
+.mega-menu li .sub .row {
+width: 100%; overflow: hidden; /* Clear floats */
+}
+.mega-menu li .sub li {
+float: none;
+width: 350px;
+font-size: 1em;
+font-weight: normal;
+    list-style: circle;
+}
+.mega-menu li .sub li.mega-hdr {
+float: left; /* Required */
+margin: 0 -5px 10px -50px;
+    width: 250px;
+}
+.mega-menu li .sub a, .mega-menu.left li .sub a {
+background: none;
+border: none;
+text-shadow: none;
+float: none;
+color: #fff;
+padding: 7px 10px;
+display: block;
+text-decoration: none;
+font-size: 0.9em;
+}
+.mega-menu li .sub li.mega-hdr a.mega-hdr-a {
+padding: 5px 5px 5px 15px;
+margin-bottom: 5px;
+background: #E88221;
+text-transform: uppercase;
+font-weight: bold;
+color: #fff;
+text-shadow: 1px 1px 1px #333;
+}
+.mega-menu li .sub li.mega-hdr a.mega-hdr-a:hover {
+color: #fff;
+text-decoration: underline;
+}
+.mega-menu .sub li.mega-hdr li a {
+padding: 4px 50px 4px 0px;
+    color: #fff;
+    width: 200px;
+font-weight: normal;
+    font: 14px 'Roboto-Condensed';
+}
+.mega-menu .sub li.mega-hdr li a:hover {
+color: #fff;
+    font: 14px 'Roboto-BoldCondensed';
+    text-decoration: underline;
+}
